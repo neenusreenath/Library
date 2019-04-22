@@ -12,7 +12,7 @@
                                 <table class="table table-striped">
                                     <thead>
                                         <tr class="title-top">
-                                        	<th class="product-thumbnail">Book Id</th>
+                                        	<th class="product-thumbnail">Book Id </th>
                                             <th class="product-thumbnail">Image</th>
                                             <th class="product-thumbnail">Book Price</th>
                                             <th class="product-name">Book Title</th>

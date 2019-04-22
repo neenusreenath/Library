@@ -145,14 +145,16 @@ class LibraryController extends Controller
          return Redirect::to('library');
     }
 
-    public function ascsort()
+    public function ascsort(Request $request)
     {
-        $book = Library::orderBy('price', 'asc')->get();
+       // echo "string";
+        $book = Library::orderBy('price', 'asc')->paginate(2);
+       // print_r($book);
         return view('home',compact('book'));  
     }
     public function descsort()
     {
-        $book = Library::orderBy('price', 'desc')->get();
+        $book = Library::orderBy('price', 'desc')->paginate(2);
         return view('home',compact('book'));  
     }
     public function search(Request $request)

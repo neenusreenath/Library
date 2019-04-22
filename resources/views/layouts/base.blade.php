@@ -54,7 +54,7 @@
 								
 								<li>
     									<button type="button" class="btn btn-outline-warning dropdown-toggle" data-toggle="dropdown" style="border:none;">
-      									Sort Book
+      									Sort Book By Price
     									</button>
     								<div class="dropdown-menu">
       									<a class="dropdown-item" href="{{url('ascsort')}}">Ascending</a>
